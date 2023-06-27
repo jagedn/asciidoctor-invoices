@@ -1,0 +1,38 @@
+image::./images/logo.svg[role=logo]
+
+[.emitter]
+*Billed from:* +
+Dr. Chrome Headless +
+Predatory Publishing Group +
+John Nicholson Street +
+EH1 RX2 Edinburgh
+
+[.recipient]
+*Billed to:* +
+Dr. Chrome Headless +
+Predatory Publishing Group +
+John Nicholson Street +
+EH1 RX2 Edinburgh
+
+[.invoice_date]
+*Invoice date:* +
+{invoice-date}
+
+
+[.opening]
+*Short invoice description* +
+work order Id XXXX +
+price per hour 25€
+
+[.details]
+invoices::details[separator=;,frame=stripe,cols="<5,<3,>1",symbol=€]
+
+[.totals]
+invoices::total[separator=;,frame=stripe,cols=">8,>1",iva=21,symbol=€]
+
+
+[.closing]
+Yours sincelerely,
+
+image::./images/signature.svg[role=signature]
+

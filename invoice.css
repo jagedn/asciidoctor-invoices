@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@page {
+  margin: 1cm 1.5cm 1cm 1.5cm;
+}
+
+html {
+  padding-left: 1cm;
+  padding-right: 1cm;
+  font-family: 'Open Sans', serif;
+}
+
+.logo {
+  margin-left: -1cm;
+  height: 80px;
+}
+
+.logo img {
+  height: 2cm;
+  width: auto;
+  position: absolute;
+}
+
+.signature img {
+  height: 2cm;
+  margin-left: 1cm;
+  width: auto;
+}
+
+.emitter {
+  float: left;
+  text-align: left;
+  margin: 1em auto 2em;
+}
+
+.recipient {
+  float: right;
+  text-align: right;
+  margin: 1em auto 2em;
+}
+
+.invoice_date {
+  display: table;
+  width: 100%;
+  text-align: right;
+  margin: 1em auto 2em;
+}
+
+.main-text {
+  text-align: justify;
+}
+
+.opening, .closing {
+  display: table;
+  width: 100%;
+  margin: 50px 0 20px 0;
+}
+
+.details {
+}
+
+.total {
+
+}
+

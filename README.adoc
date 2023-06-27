@@ -1,0 +1,29 @@
+= Invoice Asciidoctor extension
+
+A PoC AsciidoctorJS extension to render invoices
+
+== Requirements
+
+* nodejs or docker
+
+== Instructions
+
+- clone this repo
+- install `asciidoctor-web-pdf` (see https://github.com/ggrossetie/asciidoctor-web-pdf)
+- execute:
+
+```
+asciidoctor-web-pdf --template-require ./template.js \
+    --require ./invoice.js \
+    invoice.adoc \
+    -o out/2023-01-01.pdf \
+    -a invoice-file=./invoices/example.csv -a invoice-date=2023/01/01
+```
+
+see link:out/2023.pdf[]
+
+## Arguments
+
+- invoice-file: csv with the invoice
+- invoice-date: a string
+
