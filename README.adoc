@@ -27,3 +27,22 @@ see link:out/2023.pdf[]
 - invoice-file: csv with the invoice
 - invoice-date: a string
 
+
+## Invoices extensions
+
+### invoices:detail
+
+Render a table with the content of the `invoice-file`
+
+`invoices::details[separator=;,symbol=€]`
+
+
+### invoices:total
+
+Render a table with the total of the `invoice-file`
+
+If `iva` is specified the extension will calculate it and create 2 more rows
+
+`invoices::total[separator=;,iva=21,symbol=€]`
+
+
